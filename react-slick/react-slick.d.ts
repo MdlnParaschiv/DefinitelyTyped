@@ -38,6 +38,8 @@ interface __config {
   afterChange?: (() => void)
   beforeChange?: (() => void)
   slickGoTo?: number // int
+  slickNext?: (() => void)
+  slickPrev?: (() => void)
 }
 
 interface Slider extends __config {
